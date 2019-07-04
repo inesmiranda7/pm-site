@@ -1,0 +1,454 @@
+@font-face {
+    font-family:Chalkboard SE ;
+    src: url(/fontes/ChalkboardSE-Regular.ttf);
+    src: url(/fontes/ChalkboardSE-Light.ttf);
+    src: url(/fontes/ChalkboardSE-Bold.ttf);
+    src: url(/fontes/Bunch\ Blossoms\ Personal\ Use.ttf);
+  }
+  *{
+      margin: 0;
+      padding: 0;
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
+
+.header{
+    background: white;
+    position: fixed;
+    width: 100%;
+}
+
+#logoMenu{
+    margin: 10px;
+    padding: 10px; 
+    width: 5%;
+    height: auto;
+    margin-left: 100px;   
+}
+
+nav,a{
+    font-family: 'ChalkboardSE-Regular';
+    float: right;
+    color: #058e35;
+    text-decoration: none;  
+}
+
+nav,li{
+    display: inline-block;
+    position: center;
+    margin: 15px;
+    padding: 2px;
+    font-size: 25px;
+    padding-top: 1em;
+    margin-right: 90px;
+}
+.section1{
+    background-color: #ebe7e2;
+    width: 100%;
+    height: 1050px;
+    
+}
+#imgFundo{
+    padding-top: 210px;
+    width: 100%;
+    height: auto;
+
+}
+.section2{
+    background: white;
+    width: auto;
+   
+}
+
+.topText{
+    text-align: center;
+    padding-top: 10em;
+}
+.topText h1{
+    font-family: 'Bunch\ Blossoms\ Personal\ Use' ;
+    font-size:  45px;
+}
+.topText h2{
+    margin-top:0.5em; 
+    font-family: 'ChalkboardSE-Light' ;
+    font-size: 25px;
+    letter-spacing:  0.2em;
+    color: #058e35;
+}
+
+.grid-container {
+    display: grid;
+    grid-column-gap: 0px;
+    grid-template-columns: auto auto;
+    margin-top:16em;
+    margin-bottom: 15em;
+    grid-gap: 0;
+    
+  }
+  
+  .grid-item {
+    font-size: 30px;
+    justify-self: stretch;
+    padding: 2em 0;
+  }
+
+  .gridImg{
+      background: #ebe7e2;
+     
+  }
+
+#imgScooter{
+    background: url('../img/imgscooter2.svg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#imgBike{
+    background: url('../img/imgbike2.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+ .grid-chata{
+     justify-self: center;
+     padding-top: 4em;
+     padding-bottom: 2em;
+ }
+
+  #titulo1{
+    font-family: 'Bunch\ Blossoms\ Personal\ Use' ;
+    font-size: 35px;
+    color: #058e35;
+  }
+
+ #p1{
+    font-family: 'ChalkboardSE-Light';
+    font-size: 23px;
+    letter-spacing: 0.01em;
+ }
+
+ #p2{
+    font-family: 'Bunch\ Blossoms\ Personal\ Use';
+    font-size: 25px;
+    color: #058e35;
+ }
+ #p3{
+    font-family: 'ChalkboardSE-Light';
+    font-size: 19px;
+    letter-spacing: 0.1em;
+ }
+
+ .section4{
+    background: #ebe7e2;
+    width: auto;
+    height: 1060px;
+    
+ }
+
+ #tituloh2{
+    font-family: 'Bunch\ Blossoms\ Personal\ Use';
+    font-size: 40px;
+    margin-top: 3em;
+    margin-left: 190px;
+    color: #058e35;
+ }
+ #tituloh1{
+    font-family: 'ChalkboardSE-Light';
+    font-size: 50px;
+    letter-spacing: 0.1em;
+    text-align:center;
+    padding-top: 5em;
+ }
+ #paragrafoapp{
+    font-family: 'ChalkboardSE-Light';
+    font-size: 27px;
+    margin-left: 190px;
+    letter-spacing: 0.1em;
+    margin-top: 1em;
+    
+ }
+ #paragrafoapp2{
+    font-family: 'ChalkboardSE-Light';
+    font-size: 27px;
+    margin-left: 190px;
+    letter-spacing: 0.1em;
+    margin-top: 2em;
+    margin-bottom: 0em;
+    
+ }
+
+
+#telefone{
+    margin-left: 50%;
+    margin-top: -30em;
+    display:inline;
+    
+    
+}
+#appstor{
+    display:relative;
+    margin-left: 9.5em;
+    margin-top: -11em;
+    float:right;
+    margin-right: 96em;
+}
+#googleplay{
+    display:relative;
+    margin-left: 9.5em;
+    margin-top: -9.6em;
+    float:right;
+    margin-right: 83em;
+}
+#sabermais{
+    display:relative;
+    float:right;
+    width: 150px;
+    height: auto;
+    margin-top: -9.8em;
+    margin-right: 73em;
+    
+}
+
+.section5{
+    background: #ebe7e2;
+    width: auto;
+    height: 1500px;
+}
+.tituloRideOn{
+    font-family:'Bunch\ Blossoms\ Personal\ Use';
+    font-size: 50px;
+    color: #058e35;
+    margin-left: 190px;
+}
+.textorideon{
+    padding-top: 15em;
+
+}
+#p1rideOn{
+    margin-top:2em;
+    font-family: 'ChalkboardSE-Light';
+    font-size: 20px;
+    margin-left: 190px;
+    letter-spacing: 0.1em;
+
+}
+#p2rideOn{
+    margin-top:1em;
+    font-family: 'ChalkboardSE-Light';
+    font-size: 20px;
+    margin-left: 190px;
+    letter-spacing: 0.1em;
+}
+#h2rideon{
+    margin-top:3em;
+    font-family: 'ChalkboardSE-Light';
+    font-size: 26px;
+    margin-left: 190px;
+    letter-spacing: 0.1em;
+}
+.imgrideon{
+    float: right;
+    width: 750px;
+    height: auto;
+    margin-right: 190px;
+    margin-top:-27em;
+}
+#premiumCard{
+    width: 700px;
+    height: auto;
+    margin-left: 190px;
+    margin-top:12em;
+}
+
+#textorideoncard{
+    margin-top:-24em;
+    font-family: 'ChalkboardSE-Light';
+    font-size: 17px;
+    margin-left: 982px;
+    letter-spacing: 0.1em;
+}
+#pPremiumcard{
+    margin-bottom: 2em;
+}
+#appstorrideon{
+    margin-top: 3em;
+    margin-right: 140px;
+    
+}
+#googleplayrideon{
+    margin-top: 4.4em;
+   
+}
+
+.section6{
+    background-color: white;
+    width: auto;
+    height: 950px;
+}
+#tituloSobreNos{
+    font-family:'Bunch\ Blossoms\ Personal\ Use';
+    font-size: 70px;
+    color: #058e35;
+    margin-left: 165px;
+    padding-top:5em;
+}
+#textoSobreNos{
+    margin-top:1em;
+    font-family: 'ChalkboardSE-Light';
+    font-size: 22px;
+    margin-left: 165px;
+    letter-spacing: 0.1em;
+
+}
+
+#botaoSobreNos{
+    width: 200px;
+    height: auto;
+    margin-right: 1565px;
+    padding-top: 3.5em;
+}
+
+#imgSobreNos{
+    width: 1000px;
+    height: auto;
+    float: right;
+    margin-right: 130px;
+    margin-top: -30em;
+}
+
+
+#tituloSobreNosOutro{
+    font-family:'Bunch\ Blossoms\ Personal\ Use';
+    font-size: 70px;
+    color: #058e35;
+    margin-left: 145px;
+    padding-top:5em;
+}
+#textoSobreNosOutro{
+    margin-top:1em;
+    font-family: 'ChalkboardSE-Light';
+    font-size: 20px;
+    margin-left: 145px;
+    letter-spacing: 0.1em;
+
+}
+
+#textoSobreNosOutro1{
+    margin-top:1em;
+    font-family: 'ChalkboardSE-Light';
+    font-size: 20px;
+    margin-left: 145px;
+    letter-spacing: 0.1em;
+
+}
+#textoSobreNosOutro2{
+    margin-top:1em;
+    font-family: 'ChalkboardSE-Light';
+    font-size: 20px;
+    margin-left: 145px;
+    letter-spacing: 0.1em;
+
+}
+
+
+.imgSobreNosOutro{
+    width: 1050px;
+    height: auto;
+    float: right;
+    margin-right: 95px;
+    margin-top: -32em;
+}
+
+.section7{
+    background: white;
+    
+
+}
+
+#followUs{
+    margin-top: 5em;
+    text-align: center;
+    font-family: 'ChalkboardSE-Light';
+    font-size: 40px;
+}
+#iconIsnta{
+    width: 80px;
+    height: auto;
+    margin-right: ;
+    margin-top: 2em;
+    margin-right: 840px;
+}
+
+#iconFace{
+    width: 80px;
+    height: auto;
+    margin-top: 2em;
+   
+}
+
+
+#iconTwiter{
+    width: 80px;
+    height: auto;
+    margin-top: 2em;
+}
+.contactos{
+    margin-top: 25em;
+    background: #ebe7e2;
+    width: auto;
+    height: 400px;
+    display: flex;
+}
+.paciencia{
+    display: flex;
+}
+#tituloecosteps{
+    font-family: 'Bunch\ Blossoms\ Personal\ Use';
+    margin-left: 8em;
+    padding-top:2em;
+    
+}
+
+#textoecosteps{
+    font-family: 'ChalkboardSE-Light';
+    margin-left: 12em;
+}
+
+#tituloContacto{
+    font-family: 'Bunch\ Blossoms\ Personal\ Use';
+    margin-left: 8em;
+    padding-top:2em;
+   
+}
+#textoecosteps2{
+    font-family: 'ChalkboardSE-Light';
+    margin-left: 12em;
+
+}
+
+.imgsContactos{
+    display: flex;
+    margin-top: -12em;
+    margin-left: 430px;
+}
+#imgContactooo{
+    width: 150px ;
+    height: auto;
+}
+#site{
+    color: #058e35;
+    font-family: 'ChalkboardSE-Light';
+    margin-top: -3em;
+    margin-left: 835px;
+    font-size: 30px;
+   
+}
+#copyright{
+    font-family: 'ChalkboardSE-Light';
+    margin-left: 745px;
+    font-size: 18px;
+
+}

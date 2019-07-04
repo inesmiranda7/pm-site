@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sobre Nós</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript">
+
+        var slideimages = new Array() // create new array to preload images
+        slideimages[0] = new Image() // create new instance of image object
+        slideimages[0].src = "img/imgsobrenos.jpg" // set image src property to image path, preloading image in the process
+        slideimages[1] = new Image()
+        slideimages[1].src = "img/imgsobrenos2.jpg"
+        slideimages[2] = new Image()
+        slideimages[2].src = "img/imgsobrenos3.jpg"
+       
+    </script>
+</head>
+<header class="header">
+        <img src="img/logoprincipal.svg" id="logoMenu">
+        <nav>
+            <ul id="menu" class="navigation">
+                <li><a href="index.html" class="selected">Home</a></li>
+                <li><a href="index.html">Serviços</a></li>
+                <li><a href="index.html">APP</a></li>
+                <li><a href="index.html">Sobre Nós</a></li>
+                <li><a href="index.html">Contactos</a></li>
+            </ul>
+        </nav> 
+    </header>
+<body>
+        <section id="section7" class="section7">
+                <div class="textoSobreNosOutro">
+                        <h1 id="tituloSobreNosOutro">Sobre Nós</h1>
+        
+                        <p id="textoSobreNosOutro">O nosso conceito é baseado numa ideia simples,<br>
+                                de que todas as comunidades merecem o acesso à<br>
+                                 mobilidade inteligente e acessível.
+                                
+                                <p id="textoSobreNosOutro1">Através da distribuição equitativa de scooters e<br>
+                                bicicletas, pretendemos reduzir a dependência de<br> 
+                                automóveis pessoais para transporte  de curta <br>
+                                distância e deixar as gerações futuras com um<br>
+                                planeta mais limpo e saudável.</p>
+
+                                <p id="textoSobreNosOutro2">Acreditamos na transparência e na<br>responsabilidade
+                                e nós esforçamos-nos para oferecer<br>a melhor experiência
+                                ao cliente todos os dias.</p>
+        
+                        <img src="img/imgsobrenos.jpg" id="slide" class="imgSobreNosOutro">
+                      
+                </div>
+        
+        
+            </section>
+            <script>
+                    //variable that will increment through the images
+                var step=0
+                
+                function slideit(){
+                 //if browser does not support the image object, exit.
+                 if (!document.images)
+                  return
+                  document.getElementById('slide').src = slideimages[step].src
+                 if (step<2)
+                  step++
+                 else
+                  step=0
+                 //call function "slideit()" every 2.5 seconds
+                 setTimeout("slideit()",2500)
+                }
+                
+                slideit()
+                
+                
+                </script>
+    
+</body>
+</html>

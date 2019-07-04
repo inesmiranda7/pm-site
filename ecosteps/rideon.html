@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ride On</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript">
+
+        var slideimages = new Array() // create new array to preload images
+        slideimages[0] = new Image() // create new instance of image object
+        slideimages[0].src = "img/smartmockups_jxaasds8.jpg" // set image src property to image path, preloading image in the process
+        slideimages[1] = new Image()
+        slideimages[1].src = "img/smartmockups_jxaaqmai.jpg"
+        slideimages[2] = new Image()
+        slideimages[2].src = "img/smartmockups_jxabk3uc.jpg"
+        slideimages[3] = new Image()
+        slideimages[3].src = "img/smartmockups_jxaaojyz.jpg"
+    </script>
+</head>
+<header class="header">
+    <img src="img/logoprincipal.svg" id="logoMenu">
+    <nav>
+        <ul id="menu" class="navigation">
+            <li><a href="index.html" class="selected">Home</a></li>
+            <li><a href="index.html">Serviços</a></li>
+            <li><a href="index.html">APP</a></li>
+            <li><a href="index.html">Sobre Nós</a></li>
+            <li><a href="index.html">Contactos</a></li>
+        </ul>
+    </nav> 
+</header>
+<body>
+    <section class="section5">
+        <div class="textorideon">
+            <h1 class="tituloRideOn">Ride on</h1>
+
+            <p id="p1rideOn">Bem-vindo à nossa aplicação! Podes descarregar a APP<br> 
+                gratuitamente para poderes andar nas ECO BIKES e <br>
+                SCOOTERS.</p>
+            <p id="p2rideOn">Partilha o teu código com um amigo e recebes<br>
+                automáticamente 10 minutos grátis assim que o teu código<br>
+                for utilizado.</p>
+            <h2 id="h2rideon">#adere_ao_movimento</h2>
+            <img src="img/smartmockups_jxaasds8.jpg" id="slide" class="imgrideon">
+            </div>
+
+            <div class="premiumCard">
+                    <img id="premiumCard" src="img/cartaopremium.svg">
+                    <div id="textorideoncard">
+                    <p id="pPremiumcard">Para receber um ECO Premium Card basta o cliente partilhar ,com a aplicação,<br>
+                        nas redes socias,ou enviar por whatsaap o link com o promocode da sua conta,<br>
+                        e esperar que 10 pessoas utilizem o seu código em uma viagem de bicicleta ou<br>
+                        scooter.</p>
+                    <p id="pPremiumcard">Oferta de 1 bilhete em museus e casas que tenham atividades socioculturais <br>em Lisboa.</p>
+                    <p id="pPremiumcard">Oferta de 30min grátis todos os meses em qualquer um dos serviços.</p>
+                    <p id="pPremiumcard">Oferta de descontos em empresas que se preocupam com a responsabilidade<br> ambiental,
+                        como mercados de produtos<br> ôrganicos feitos em Portugal ou marcas de produtos ôrganicos, que têm parceria <br>com a ECO Steps.</p>
+                    </div>
+                    <a href="https://www.apple.com/pt/ios/app-store/"><img id="appstorrideon" src="img/appstor.png"></a>
+                <a href="https://play.google.com/store?hl=pt_PT"><img id="googleplayrideon" src="img/googleplay.png"></a>
+            </div>
+    </section>
+    
+<script>
+        //variable that will increment through the images
+    var step=0
+    
+    function slideit(){
+     //if browser does not support the image object, exit.
+     if (!document.images)
+      return
+      document.getElementById('slide').src = slideimages[step].src
+     if (step<2)
+      step++
+     else
+      step=0
+     //call function "slideit()" every 2.5 seconds
+     setTimeout("slideit()",2500)
+    }
+    
+    slideit()
+    
+    
+    </script>
+</body>
+
+
+
+    
+</html>
